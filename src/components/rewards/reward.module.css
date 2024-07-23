@@ -1,0 +1,83 @@
+.rewardCard {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.rewards {
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rewardCards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.appExclusive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    width: fit-content;
+    padding: 0px 10px;
+    background-color: #FF3C6E;
+    border-radius: 50px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+
+.priceInfo p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bonusInfo {
+    color: #7dbfb5;
+}
+
+.puchaseGift {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    width: fit-content;
+    border-radius: 50px;
+    background-color: #e8e8e8;
+    padding: 4px 4px 4px 10px;
+    color: #808080;
+    margin-bottom: 24px;
+}
+
+.puchaseGift p {
+    margin-right: 10px;
+    margin-left: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}

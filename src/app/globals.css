@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Override default Antd styles */
+.ant-switch {
+  background-color: #c3c3c3 !important;
+}
+
+.ant-switch-checked {
+  background-color: #FF3C6E !important;
+}
